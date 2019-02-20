@@ -12,8 +12,8 @@ object csvReader {
 
 
     import spark.implicits._
-    val accessKeyId = "AKIAJSM7NVW37YFQFBIA"
-    val secretAccessKey = "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"
+    val accessKeyId = ""
+    val secretAccessKey = ""
 
     spark.sparkContext.hadoopConfiguration.set("fs.s3.impl", "org.apache.hadoop.fs.s3native.NativeS3FileSystem")
     spark.sparkContext.hadoopConfiguration.set("fs.s3.awsAccessKeyId", accessKeyId)
